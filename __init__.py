@@ -1,3 +1,5 @@
+import time
+
 from modules.core.props import Property, StepProperty
 from modules.core.step import StepBase
 from modules import cbpi
