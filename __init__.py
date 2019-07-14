@@ -10,10 +10,10 @@ class TwoKettleLogic(StepBase):
     Just put the decorator @cbpi.step on top of a method. The class name must be unique in the system
     '''
     # Properties
-    kettle1 = StepProperty.Kettle("Kettle")
-    temp1 = Property.Number("Temperature", configurable=True)
-    kettle2 = StepProperty.Kettle("Kettle")
-    temp2 = Property.Number("Temperature", configurable=True)
+    kettle1 = StepProperty.Kettle("Kettle 1")
+    temp1 = Property.Number("Temperature 1", configurable=True)
+    kettle2 = StepProperty.Kettle("Kettle 2")
+    temp2 = Property.Number("Temperature 2", configurable=True)
 
     def init(self):
         '''
